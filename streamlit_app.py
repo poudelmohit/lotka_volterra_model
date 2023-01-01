@@ -32,7 +32,21 @@ st.markdown(
 # Explaining in more depth:
 st.markdown("### Let's understand the model with an example: ")
 st.markdown('''
-# here more description will be given
+The Lotka-Volterra competition model is a mathematical model that describes the interactions between two species in a competitive environment. The model is named after Alfred J. Lotka and Vito Volterra, who independently developed the model in the early 20th century.
+
+The model is based on the assumption that each species has a certain reproductive rate, which determines how quickly it can reproduce and increase its population size. The model also assumes that each species has a certain level of resource use, which determines how much of a particular resource (such as food or habitat) it consumes.
+
+The model predicts that the population sizes of both species will change over time based on their reproductive rates and resource use. If one species has a higher reproductive rate and/or lower resource use than the other species, it is likely to outcompete the other species and increase in population size. If both species have similar reproductive rates and resource use, they may coexist in a stable equilibrium.
+
+Here is an example of how the Lotka-Volterra competition model works:
+
+Imagine that there are two species of rabbits living in a grassy meadow. One species of rabbit, species A, has a high reproductive rate and low resource use, while the other species, species B, has a low reproductive rate and high resource use.
+
+Initially, the meadow has a finite amount of grass (the resource) and both species of rabbits are present in equal numbers. Over time, the population of species A will increase because it is able to reproduce more quickly and consume fewer resources than species B. As the population of species A grows, the population of species B will decline because it is unable to compete with species A for resources.
+
+Eventually, the population of species A may reach a stable equilibrium, where it is able to maintain its population size without continuing to increase. The population of species B, on the other hand, may continue to decline until it becomes locally extinct.
+
+This is a simplified example of how the Lotka-Volterra competition model works, but it illustrates the basic principles of competition between two species in a finite environment.
 ''')
 
 
