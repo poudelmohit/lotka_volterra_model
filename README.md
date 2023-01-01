@@ -1,4 +1,4 @@
-# 📦 Streamlit App Starter Kit 
+# 📦 Lotka-Volterra Model Simulator
 ```
 ⬆️ (Replace above with your app's name)
 ```
