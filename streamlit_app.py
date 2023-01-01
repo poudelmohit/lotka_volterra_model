@@ -79,3 +79,17 @@ ax.legend(loc='best')
 ax.set_xlabel('Time')
 ax.set_ylabel('Population Size(N)')
 st.pyplot(fig)
+
+
+CV_link = {"Know the Developer !!":"https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel"}
+st.markdown("## Developed By: ")
+st.markdown("
+            ### Mohit Poudel
+            #### Junior Researcher at the Central Lab of Biotechnology, Agriculture and Fprestry University
+            ")
+for (platform, link) in SOCIAL_MEDIA.items():
+    st.write(f"[{platform}]({link})")
+
+        
+            
+            
