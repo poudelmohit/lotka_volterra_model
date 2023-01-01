@@ -99,8 +99,11 @@ CV_link = {"Know the Developer !!":"https://mohit254-portfolio-cv-t4bwqw.streaml
 st.markdown("## Developed By: ")
 st.markdown("# Mohit Poudel")
 st.markdown("### Junior Researcher at the Central Lab of Biotechnology, Agriculture and Forestry University")
-for (platform, link) in SOCIAL_MEDIA.items():
-    st.write(f"[{platform}]({link})")
+st.markdown("#### Please email for feedback and criticism to: poudelmohit59@gmail.com "
+# for (platform, link) in SOCIAL_MEDIA.items():
+#     st.write(f"[{platform}]({link})")
+
+
 
         
             
