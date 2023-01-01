@@ -86,6 +86,7 @@ y1 = y[:, 0]
 y2 = y[:, 1]
 
 # Plot the results
+st.markdown("### Plotting the values:")
 fig, ax = plt.subplots()
 ax.plot(t, y1, 'r', label='Species 1')
 ax.plot(t, y2, 'b', label='Species 2')
@@ -99,7 +100,7 @@ CV_link = {"Know the Developer !!":"https://mohit254-portfolio-cv-t4bwqw.streaml
 st.markdown("## Developed By: ")
 st.markdown("# Mohit Poudel")
 st.markdown("### Junior Researcher at the Central Lab of Biotechnology, Agriculture and Forestry University")
-st.markdown("#### Please email for feedback and criticism to: poudelmohit59@gmail.com "
+st.markdown("#### Please email for feedback and criticism to: poudelmohit59@gmail.com ")
 # for (platform, link) in SOCIAL_MEDIA.items():
 #     st.write(f"[{platform}]({link})")
 
