@@ -11,3 +11,4 @@ This code simulates the dynamics of two interacting species using the Lotka-Volt
 
 This web app is developed by an undergrad of plant science at Agriculture and Forestry University, Nepal. He is passionate about biology and interested in using computational tools and techniques to better understand the world.
 
+## If you have any feedback, please reach out to me at: poudelmohit59@gmail.com
