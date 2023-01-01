@@ -1,21 +1,13 @@
 # 📦 Lotka-Volterra Model Simulator
 ```
-⬆️ (Replace above with your app's name)
 ```
+This code simulates the dynamics of two interacting species using the Lotka-Volterra competition model. The species' populations are modeled as changing over time according to the equations.
 
-Description of the app ...
+#### How to use this app?
+###### Change the input parameters for the equations (from the sidebar) and visulaize how the graph is modified.
+###### Intended users are the students interested in ecology, population genetics or mathematics
 
-## Demo App
+## About the developer
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://starter-kit.streamlitapp.com/)
+This web app is developed by an undergrad of plant science at Agriculture and Forestry University, Nepal. He is passionate about biology and interested in using computational tools and techniques to better understand the world.
 
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
