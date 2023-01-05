@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Assigning title and subtitle to the app
-st.set_page_config(page_title="Lokta-Volterra Simulator", page_icon=":heart:")
+st.set_page_config(page_title="Lotka-Volterra Simulator", page_icon=":heart:")
 
 st.title("Lotka-Volterra Model Simulator")
 st.subheader("An Interactive App to learn Predator-Prey Equations")
