@@ -3,10 +3,8 @@ from scipy.integrate import odeint
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-st.set_page_config(page_title="Lokta-Volterra Simulator", page_icon=":dna:")
-
 # Assigning title and subtitle to the app
+st.set_page_config(page_title="Lokta-Volterra Simulator", page_icon=":heart:")
 
 st.title("Lotka-Volterra Model Simulator")
 st.subheader("An Interactive App to learn Predator-Prey Equations")
@@ -98,12 +96,16 @@ ax.set_xlabel('Time')
 ax.set_ylabel('Population Size(N)')
 st.pyplot(fig)
 
+st.markdown("## Developed By: ")
+col1, col2 = st.columns(2, gap="small")
+with col1:
+    st.image("https://mohit254-portfolio-cv-t4bwqw.streamlit.app/~/+/media/511fd1351113b1b2f0acc6c65d463c50c4155c521ee6fce285af2566.png", width=230)
 
-# CV_link = {"Know the Developer !!":"https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel"}
-st.markdown("#### Developed By: ")
-st.markdown("# Mohit Poudel")
-st.markdown("### Research Intern at the Central Lab of Biotechnology, Agriculture and Forestry University")
-st.markdown("###### Please email for feedback and criticism to: poudelmohit59@gmail.com ")
+with col2:
+    st.title("Mohit Poudel")
+    st.write("Bioinformatics & population genetics enthusiast, self-taught python programmer")
+    st.write("Agriculture and Forestry University")
+    st.write("Chitwan, Nepal")
 st.markdown("##### [Know more about the developer !!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
 
 
