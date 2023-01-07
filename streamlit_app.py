@@ -9,6 +9,13 @@ st.set_page_config(page_title="Lotka-Volterra Simulator", page_icon=":heart:")
 st.title("Lotka-Volterra Model Simulator")
 st.subheader("An Interactive App to learn Predator-Prey Equations")
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 # Display the Lotka-Volterra competition equations
 st.markdown(
     r"""
