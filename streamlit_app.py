@@ -73,15 +73,15 @@ def lv(y, t, r1, r2, a, b, K1, K2):
 
 
 st.sidebar.markdown("## Input Parameters")
-r1 = st.sidebar.slider('Growth rate of species 1 (r1)', 0.01, 1.0, 0.01)
-r2 = st.sidebar.slider('Growth rate of species 2 (r2)', 0.01, 1.0, 0.01)
-K1 = st.sidebar.number_input('Carrying capacity of species 1 (K1)', value=100, step=1)
-K2 = st.sidebar.number_input('Carrying capacity of species 2 (K2)', value=100, step=1)
-a = st.sidebar.slider('Interaction coefficient \'a\' (effect of species 2 on species 1)', 0.0, 1.0, 0.5)
-b = st.sidebar.slider('Interaction coefficient \'b\' (effect of species 1 to species 2)', 0.0, 1.0, 0.5)
-N1 = st.sidebar.number_input("Population size of species 1 (N1)", step=1)
-N2 = st.sidebar.number_input("Population size of species 2 (N2)", step=1)
-T = st.sidebar.slider('Length of simulation', 1, 1000, 1)
+r1 = st.sidebar.slider('Growth rate of species 1 (r1)', 0.01, 1.0, 0.13)
+r2 = st.sidebar.slider('Growth rate of species 2 (r2)', 0.01, 1.0, 0.98)
+K1 = st.sidebar.number_input('Carrying capacity of species 1 (K1)', value=600, step=1)
+K2 = st.sidebar.number_input('Carrying capacity of species 2 (K2)', value=500, step=1)
+a = st.sidebar.slider('Interaction coefficient \'a\' (effect of species 2 on species 1)', 0.0, 1.0, 0.1)
+b = st.sidebar.slider('Interaction coefficient \'b\' (effect of species 1 to species 2)', 0.0, 1.0, 0.4)
+N1 = st.sidebar.number_input("Population size of species 1 (N1)", value=50, step=1)
+N2 = st.sidebar.number_input("Population size of species 2 (N2)", value=70, step=1)
+T = st.sidebar.slider('Length of simulation', 1, 1000, 100)
 
 # Set the time range for the simulation
 t = np.linspace(0, T, 100)
