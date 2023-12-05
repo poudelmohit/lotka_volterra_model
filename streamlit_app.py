@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Lotka-Volterra Simulator", page_icon=":heart:")
 
 st.title("Lotka-Volterra Model Simulator")
-st.subheader("An Interactive App to learn Predator-Prey Equations")
+st.subheader("An Interactive App to learn Interspecific Population Dynamics")
 
 hide_menu_style = """
         <style>
@@ -19,7 +19,7 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 # Display the Lotka-Volterra competition equations
 st.markdown(
     r"""
-    The Lotka-Volterra competition equations describe the dynamics of two species competing for the same resource in an ecosystem. The equations are given by:
+    The Lotka-Volterra competition equations describe the dynamics of two species exhibiting interspecific competition in an ecosystem. The equations are given by:
 
     $$\frac{dN_1}{dt} = r_1 N_1 \left( 1 - \frac{N_1 + a N_2}{K_1} \right)$$
 
@@ -27,34 +27,29 @@ st.markdown(
 
     where,
 
-    $N_1$ and $N_2$ are the populations of the two species,
+    $N_1$ and $N_2$ are the population size of the two competing species,
 
-    $r_1$ and $r_2$ are the intrinsic growth rates of the species, 
+    $r_1$ and $r_2$ are the intrinsic growth rates (logistic growth) of the species, 
 
-    $a$ and $b$ are the interaction coefficients that describe the effect of one species on the other, and 
+    $a$ is the measure of the effect of species 2 on the growth of species 1 
+    $b$ is the measure of the effect of species 1 on the growth of species 2, and 
 
-    $K_1$ and $K_2$ are the carrying capacities of the species.
+    $K_1$ and $K_2$ are the carrying capacities of the habitat for the species.
     """
 )
 
 # Explaining in more depth:
 st.markdown("### Let's understand the model with an example: ")
 st.markdown('''
-The Lotka-Volterra competition model is a mathematical model that describes the interactions between two species in a competitive environment. The model is named after Alfred J. Lotka and Vito Volterra, who independently developed the model in the early 20th century.
+The Lotka-Volterra competition model is a mathematical model that describes the interactions between two species in a competitive environment. The model is named after Alfred J. Lotka (1880-1949) and Vito Volterra (1860-1940), who independently developed the model in the early 20th century.
 
-The model is based on the assumption that each species has a certain reproductive rate, which determines how quickly it can reproduce and increase its population size. The model also assumes that each species has a certain level of resource use, which determines how much of a particular resource (such as food or habitat) it consumes.
+The model is based on the assumption that each species has a certain reproductive rate, which determines how quickly it can reproduce and increase its population size. The model also assumes that resources are in limited supply, due to which competition is inevitable.
 
-The model predicts that the population sizes of both species will change over time based on their reproductive rates and resource use. If one species has a higher reproductive rate and/or lower resource use than the other species, it is likely to outcompete the other species and increase in population size. If both species have similar reproductive rates and resource use, they may coexist in a stable equilibrium.
+The model predicts that the population sizes of both species will change over time based on their reproductive rates and resource use. However, competition coefficients and carrying capacities are assumed to be constant.
 
-Here is an example of how the Lotka-Volterra competition model works:
+If the interaction coefficient is equal to zero, there is no competitive effect, and the equation behaves as a single-species logistic equation.
 
-Imagine that there are two species of rabbits living in a grassy meadow. One species of rabbit, species A, has a high reproductive rate and low resource use, while the other species, species B, has a low reproductive rate and high resource use.
-
-Initially, the meadow has a finite amount of grass (the resource) and both species of rabbits are present in equal numbers. Over time, the population of species A will increase because it is able to reproduce more quickly and consume fewer resources than species B. As the population of species A grows, the population of species B will decline because it is unable to compete with species A for resources.
-
-Eventually, the population of species A may reach a stable equilibrium, where it is able to maintain its population size without continuing to increase. The population of species B, on the other hand, may continue to decline until it becomes locally extinct.
-
-This is a simplified example of how the Lotka-Volterra competition model works, but it illustrates the basic principles of competition between two species in a finite environment.
+If interaction coefficients are small, both species approach an equilibrium level near their carrying capacities.
 ''')
 
 
