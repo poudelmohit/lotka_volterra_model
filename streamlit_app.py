@@ -32,6 +32,7 @@ st.markdown(
     $r_1$ and $r_2$ are the intrinsic growth rates (logistic growth) of the species, 
 
     $a$ is the measure of the effect of species 2 on the growth of species 1 
+    
     $b$ is the measure of the effect of species 1 on the growth of species 2, and 
 
     $K_1$ and $K_2$ are the carrying capacities of the habitat for the species.
@@ -106,8 +107,8 @@ with col1:
 with col2:
     st.title("Mohit Poudel")
     st.write("Bioinformatics & population genetics enthusiast, self-taught python programmer")
-    st.write("Agriculture and Forestry University")
-    st.write("Chitwan, Nepal")
+    st.write("Ohio University")
+    st.write("Athens, Ohio")
 st.markdown("##### [Know more about the developer !!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
 
 
