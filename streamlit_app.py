@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Lotka-Volterra Simulator", page_icon=":heart:")
 
 st.title("Lotka-Volterra Model Simulator")
-st.subheader("An Interactive App to learn Interspecific Population Dynamics")
+st.subheader("An Interactive App to learn Interspecific Population Interaction")
 
 hide_menu_style = """
         <style>
