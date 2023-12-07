@@ -40,7 +40,7 @@ st.markdown(
 )
 
 # Explaining in more depth:
-st.markdown("### Let's understand the model with an example: ")
+st.markdown("### More about the model: ")
 st.markdown('''
 The Lotka-Volterra competition model is a mathematical model that describes the interactions between two species in a competitive environment. The model is named after Alfred J. Lotka (1880-1949) and Vito Volterra (1860-1940), who independently developed the model in the early 20th century.
 
@@ -99,6 +99,11 @@ ax.set_xlabel('Time')
 ax.set_ylabel('Population Size(N)')
 st.pyplot(fig)
 
+st.markdown("### References: ")
+st.markdown(''' https://en.wikipedia.org/wiki/Competitive_Lotka%E2%80%93Volterra_equations
+
+A Primer of Ecology, Third Edition by Nicholas J. Gotelli''')
+
 st.markdown("## Developed By: ")
 col1, col2 = st.columns(2, gap="small")
 with col1:
@@ -109,7 +114,8 @@ with col2:
     st.write("Bioinformatics & population genetics enthusiast, self-taught python programmer")
     st.write("Ohio University")
     st.write("Athens, Ohio")
-st.markdown("##### [Know more about the developer !!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
+st.markdown("##### [Know more about the developer!!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
+
 
 
 
