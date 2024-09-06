@@ -3,6 +3,9 @@
 ```
 This code simulates a simple mathematical model of interspecific competition that is the framework for competition in population ecology.
 
+#### Where is the app?
+###### Please visit: https://mohit254-lotka-volterra-model-streamlit-app-qsvyge.streamlit.app/
+
 #### How do I use this app?
 ###### Change the input parameters for the equations (from the sidebar) and visualize how the graph is modified.
 ###### The intended users are students interested in ecology, population genetics or mathematics
