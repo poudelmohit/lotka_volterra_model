@@ -114,7 +114,7 @@ with col2:
     st.write("Bioinformatics & population genetics enthusiast, self-taught python programmer")
     st.write("Ohio University")
     st.write("Athens, Ohio")
-st.markdown("##### [Know more about the developer!!](https://mohit254-portfolio-cv-t4bwqw.streamlit.app/#mohit-poudel)")
+st.markdown("##### [Know more about the developer!!](https://poudelmohit.github.io/)")
 
 
 
